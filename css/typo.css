@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:300,400|Poppins|Raleway:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Kulim+Park&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+header{
+  background: white;
+  padding: 3vw;
+  border-radius: 5px;
+  border-top: 4px solid #1B0DFF;
+  border-bottom: 4px solid #1B0DFF;
+  border-left: 3px solid #1B0DFF;
+  border-right: 3px solid #1B0DFF;
+  padding: 0.25em;
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 8em;
+  text-align: center;
+  color:#F91927;
+  margin-bottom: 0px;
+}
+
+header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  text-align: center;$
+    margin-top: 0px;
+}
+
+#fable01 {
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+  color:#1B0DFF;
+  font-size: 1.2em;
+}
+
+#fable01 h2 {
+    margin-top: 70px;
+  font-family: 'Righteous', cursive;
+  font-size: 2.2em;
+    text-align: center;
+    color: black;
+}
+
+#fable02 {
+font-family: 'Comfortaa', cursive;
+text-align: left;
+font-size: 1em;
+}
+
+#fable02 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+  text-align: left;
+  color:red;
+}
+
+#fable03 {
+font-family: 'Kulim Park', sans-serif;
+text-align: right;
+font-size: 1.5em;
+}
+
+#fable03 h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.3em;
+  text-align: right;
+  color: #1B0DFF;
+}
