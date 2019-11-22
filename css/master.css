@@ -1,6 +1,6 @@
-
 body {
-  background: #FEF3E3;
+  background: #FEF3E3 url('images/242.jpg') top center;
+  background: cover;
 }
 
 /*#fable01 {
@@ -11,7 +11,6 @@ body {
 
 #figure01{
   min-height: 60vh;
-  background:
   overflow: hidden;
   padding: 60px;
   padding-bottom: 20px;
@@ -39,23 +38,47 @@ body {
     max-width: 600px
     }
 
-#fable02 {
+/*#fable02 {
   padding: 6px;
   align-content: right;
   justify-content: right;
   margin-left: 50vw;
+  background:'images/lion.jpg');
+  display: flex;
+}*/
+
+#fable02 .main-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+#fable02 .text-content{
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  }
+
 #fable02 p {
-  background-color:#1B0DFF;
-  color: white;
-  padding: 3vw;
+  background: #1B0DFF url('images/water.jpg') top center;
+  background: cover;
+  background-attachment: fixed;
+  display: flex;
+  color:white;
+  padding: 6vw;
   border-radius: 5px;
 }
 
 #fable03 {
   padding: 6px;
-  justify-content: left;
-  align-content: left;
-  margin-right: 50vw;
+  justify-content: right;
+  align-content: right;
+  margin-left:50vw;
 }
+
+#fable01 figure{
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 600px
+  }
