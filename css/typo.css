@@ -48,26 +48,26 @@ header p {
 
 #fable02 {
 font-family: 'Comfortaa', cursive;
-text-align: left;
-font-size: 1em;
+text-align: center;
+font-size: 1.2em;
 }
 
 #fable02 h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 3.5em;
-  text-align: left;
+  text-align: center;
   color:red;
 }
 
 #fable03 {
 font-family: 'Kulim Park', sans-serif;
-text-align: right;
+text-align: left;
 font-size: 1.5em;
 }
 
 #fable03 h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 2.3em;
-  text-align: right;
+  text-align: left;
   color: #1B0DFF;
 }
